@@ -23,9 +23,6 @@ svg{
   overflow: hidden;
   
 }
-video{
-  overflow: hidden;
-}
 .container {
   position: relative;
   z-index: 1;
@@ -120,13 +117,20 @@ margin: 0 auto;
   box-shadow:  -7px -7px 14px #c7c7c7,
                7px 7px 14px #ffffff;
 }
-.iconCircle{
+.optionIcon{
   width: 70px;
   height: 190px;
   position: absolute;
   right: 80px;
   top: -70px; 
-  display: none;
+  transition: .5s;
+}
+
+.hidden{
+  /* display: none; */
+  overflow: hidden;
+  top: -9000px;
+  transition: .3s;
 }
 .secBtn{
   width: 50px;
