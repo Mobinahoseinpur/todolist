@@ -18,3 +18,32 @@
             </li>
           </ul>
         </div> -->
+
+
+
+
+
+
+
+        <!-- -------------------- -->
+        let task = document.createElement('div')
+        task.classList.add('task')
+        task.innerHTML = input
+        ct.appendChild = task
+    
+        // create p.taskTextContent
+        let taskTextContent = document.createElement('p')
+        taskTextContent.classList.add('taskTextContent')
+        taskTextContent.innerHTML= input
+        task.appendChild=taskTextContent
+        console.log(taskTextContent)
+    
+        //create span.options
+        let options = document.createElement('span')
+        options.classList.add('options')
+        ct.appendChild = options
+        
+        //create ul.optionIcon
+        let optionIcon = document.createElement('ul')
+        optionIcon.classList.add('optionIcon' , 'hidden')
+        ct.appendChild = optionIcon
