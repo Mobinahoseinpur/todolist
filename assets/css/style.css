@@ -104,6 +104,7 @@ margin: 0 auto;
 }
 .task p{
   /* width: 80%; */
+  outline: none;
 }
 .task+span{
   display: flex;
