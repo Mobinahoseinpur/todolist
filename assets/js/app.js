@@ -1,4 +1,4 @@
-
+let op = document.getElementsByClassName('options')
 let _count = 0
 
 document.querySelector('.addBtn').addEventListener('click' , function(){
@@ -17,7 +17,7 @@ document.querySelector('.addBtn').addEventListener('click' , function(){
      </div>
      
      <div class="hvr">
-       <span class="options">
+       <span class="options" >
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ellipsis-v"><path fill="#840FC7" d="M12,7a2,2,0,1,0-2-2A2,2,0,0,0,12,7Zm0,10a2,2,0,1,0,2,2A2,2,0,0,0,12,17Zm0-7a2,2,0,1,0,2,2A2,2,0,0,0,12,10Z"></path></svg>
        </span>
        <ul class="optionIcon ">
@@ -37,6 +37,7 @@ document.querySelector('.addBtn').addEventListener('click' , function(){
      document.querySelector('.counter').innerHTML = _count
      input.value=''
      input.focus()
+     
     }
 })
 
