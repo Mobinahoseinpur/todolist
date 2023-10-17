@@ -59,11 +59,17 @@ function _delete(del) {
   let delItem = del
   delItem.parentElement.parentElement.remove();
 }
-//!----------------- create edite button button --------------------
+//!----------------- create edite button  --------------------
 function _edite(ed) {
   let editItem = ed
   // console.log(editItem.parentElement.previousElementSibling.previousElementSibling.childNodes[1])
   console.log(editItem)
   editItem.parentElement.previousElementSibling.previousElementSibling.childNodes[1].setAttribute('contenteditable', true)
 }
-//!----------------- create edite button button --------------------
+//!----------------- create done  button --------------------
+function _done(don) {
+  let donItem = don
+  donItem.nextElementSibling.remove()
+  console.log()
+
+}
